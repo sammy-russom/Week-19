@@ -20,16 +20,16 @@ self.addEventListener('install', (e) => {
     );
 });
 
-self.addEventListener('fetch', function (e){
-    e.respondWith(
-        //check if the cache has the file
-        cache.match(e.request).then(function (r){
-            console.log('[Service Worker] Fetching resource:'
-            + e.request.url);
-            return r
-        })
-    );
-});
+// self.addEventListener('fetch', function (e){
+//     e.respondWith(
+//         //check if the cache has the file
+//         cache.match(e.request).then(function (r){
+//             console.log('[Service Worker] Fetching resource:'
+//             + e.request.url);
+//             return r
+//         })
+//     );
+// });
 
 self.addEventListener('fetch', function (e){
     e.respondWith(

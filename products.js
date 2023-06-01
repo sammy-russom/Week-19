@@ -4,7 +4,7 @@ let products = [
       "title": "Cat Food, 25lb bag",
       "description": "A 25 pound bag of <em>irresistible</em>, organic goodness for your cat.",
       "price": 20.00,
-      "image": "images/product-fullsize.png",
+      "image": "business.png",
       "availableInventory": 10,
       "rating": 2
     },
@@ -13,7 +13,7 @@ let products = [
       "title": "Yarn",
       "description": "Yarn your cat can play with for a very <strong>long</strong> time!",
       "price": 2.99,
-      "image": "images/yarn.jpg",
+      "image": "chemistry.png",
       "availableInventory": 7,
       "rating": 3
     },
